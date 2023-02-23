@@ -5,7 +5,7 @@
 def sum arr
   # YOUR CODE HERE
   sum = 0;
-  array.each { |a| sum+=a }
+  arr.each { |a| sum+=a }
   return sum;
 end
 
