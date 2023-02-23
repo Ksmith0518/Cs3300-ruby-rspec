@@ -4,9 +4,14 @@
 
 def sum arr
   # YOUR CODE HERE
-  sum = 0;
-  arr.each { |a| sum+=a }
-  return sum;
+ # Initializing the sum to 0
+  sum = 0  
+  # Calculating the sum using for loop
+  for i in 0...arr.length
+    sum = sum + arr[i]
+  end
+ # return the final sum of all the elements of the array
+ return sum
 end
 
 def max_2_sum arr
