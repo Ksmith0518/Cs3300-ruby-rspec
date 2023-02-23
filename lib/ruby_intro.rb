@@ -28,12 +28,12 @@ end
 def sum_to_n? arr, n
   # YOUR CODE HERE
   # Iterating in array with counter i from first to last element of array
-for i in 0..(array.length()-1)
+for i in 0..(arr.length()-1)
   # Iterating in array with from the next element of i position
   # till the last element of array
-  for j in (i+1)..(array.length()-1)
+  for j in (i+1)..(arr.length()-1)
   # When ith and jth positioon element summation is equal to n
-    if((array.at(i)+array.at(j))==n)
+    if((arr.at(i)+array.at(j))==n)
   # Returning the true
     return true
     end
