@@ -66,6 +66,12 @@ end
 
 def binary_multiple_of_4? s
   # YOUR CODE HERE
+  #return true if 
+  #\d decimal identifier is similar to s, will return true or zero
+  #also if s is evenly divided by 4
+return true if (/\d+/ =~ s) == 0 and s.to_i % 4 == 0
+#else return false
+return false
 end
 
 # Part 3
