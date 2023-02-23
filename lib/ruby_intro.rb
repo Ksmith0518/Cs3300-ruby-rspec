@@ -53,7 +53,7 @@ end
 def hello(name)
   # YOUR CODE HERE
   #return a string concatinated with the input
-  retrun "Hello" + name
+  retrun "Hello, " + name
 end
 
 def starts_with_consonant? s
