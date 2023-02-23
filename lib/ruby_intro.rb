@@ -60,6 +60,7 @@ def starts_with_consonant? s
   # YOUR CODE HERE
   #Return false if the input isnt even a string
   return false if !s or s.length == 0
+  #test for a vowel
   return !/\A[aeiou\W\d].*/i.match(s)
 end
 
