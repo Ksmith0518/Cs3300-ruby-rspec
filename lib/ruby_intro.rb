@@ -52,10 +52,14 @@ end
 
 def hello(name)
   # YOUR CODE HERE
+  #return a string concatinated with the input
+  retrun "Hello" + name
 end
 
 def starts_with_consonant? s
   # YOUR CODE HERE
+  #Return false if the input isnt even a string
+  retrun false if !s or s.lenght == 0
 end
 
 def binary_multiple_of_4? s
