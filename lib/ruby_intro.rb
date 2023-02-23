@@ -2,7 +2,7 @@
 
 # Part 1
 
-def sum arr
+def sum(arr)
   # YOUR CODE HERE
  # Initializing the sum to 0
   sum = 0  
