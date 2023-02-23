@@ -16,29 +16,35 @@ end
 
 def max_2_sum arr
   # YOUR CODE HERE
+  #If array is empty 
   if arr.length == 0
+    #return integer zero
     return 0
+    #else if the array only has 1 element
     elsif arr.length == 1
+    #return the element of that array as the max
     return arr[0]
     end
+    #else use the sorting method from ruby
     arr=arr.sort
+    #return the last element, indexing backwards
     return arr[-1] + arr[-2]
 end
 
 def sum_to_n? arr, n
   # YOUR CODE HERE
-  # Iterating in array with counter i from first to last element of array
+  # Walk though the array
 for i in 0..(arr.length()-1)
-  # Iterating in array with from the next element of i position
-  # till the last element of array
+  # Start from index i and go until you hit the end of the array
   for j in (i+1)..(arr.length()-1)
-  # When ith and jth positioon element summation is equal to n
+  # See if index i and index j equals the passed in n
     if((arr.at(i)+array.at(j))==n)
-  # Returning the true
+  #If true return true
     return true
     end
   end
 end
+#else return false
   return false
 end
 
